@@ -90,7 +90,23 @@ hr {
     color: var(--brown-800);
 }
 
-.attribution{
-    font-size: 16px;
+@media (max-width: 767px) {
+    body {
+        background-color: var(--white);
+
+    }
+
+    main {
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        border-radius: 0px;
+    }
+
+    section {
+        padding: 6%;
+    }
 }
 
